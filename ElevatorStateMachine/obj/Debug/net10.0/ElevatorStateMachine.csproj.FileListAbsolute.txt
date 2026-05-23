@@ -1,0 +1,14 @@
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\bin\Debug\net10.0\ElevatorStateMachine.exe
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\bin\Debug\net10.0\ElevatorStateMachine.deps.json
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\bin\Debug\net10.0\ElevatorStateMachine.runtimeconfig.json
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\bin\Debug\net10.0\ElevatorStateMachine.dll
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\bin\Debug\net10.0\ElevatorStateMachine.pdb
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\obj\Debug\net10.0\ElevatorStateMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\obj\Debug\net10.0\ElevatorStateMachine.AssemblyInfoInputs.cache
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\obj\Debug\net10.0\ElevatorStateMachine.AssemblyInfo.cs
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\obj\Debug\net10.0\ElevatorStateMachine.csproj.CoreCompileInputs.cache
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\obj\Debug\net10.0\ElevatorStateMachine.dll
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\obj\Debug\net10.0\refint\ElevatorStateMachine.dll
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\obj\Debug\net10.0\ElevatorStateMachine.pdb
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\obj\Debug\net10.0\ElevatorStateMachine.genruntimeconfig.cache
+C:\Artuz\Tiltan\ElevatorStateMachine\ElevatorStateMachine\obj\Debug\net10.0\ref\ElevatorStateMachine.dll
