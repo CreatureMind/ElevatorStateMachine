@@ -11,20 +11,31 @@ public enum ElevatorStates
 
 public class Elevator
 {
-    private StateMachine<ElevatorStates> machine = new();
-
+    private StateMachine<ElevatorStates> machine;
+    
     public Elevator()
     {
-        machine.OnStateChanged += CheckState;
+        machine = new(this);
+
+        machine.SetBool("wasCalled", false);
+        machine.AddTransition(ElevatorStates.IdleClosed, ElevatorStates.IdleOpened);
     }
 
-    public void CheckState(State state)
+    [StateMachineCallback(ElevatorStates.IdleClosed, StateCallback.Enter)]
+    public void EnterYaFr()
     {
-        switch (state.Id)
-        {
-            case (int)ElevatorStates.IdleClosed:
-                
-                break;
-        }
+        Console.WriteLine("meow");
+    }
+
+    [StateMachineCallback(ElevatorStates.IdleClosed, StateCallback.Exit)]
+    public void EnterYaFrExit()
+    {
+        Console.WriteLine("exited closed");
+    }
+
+    [StateMachineCallback(ElevatorStates.IdleOpened, StateCallback.Enter)]
+    public void OpenYa()
+    {
+        Console.WriteLine("openya");
     }
 }

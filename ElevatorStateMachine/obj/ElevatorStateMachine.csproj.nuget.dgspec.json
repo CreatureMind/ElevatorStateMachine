@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Artuz\\Tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\ElevatorStateMachine.csproj": {}
+    "C:\\Users\\Amitay\\Documents\\tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\ElevatorStateMachine.csproj": {}
   },
   "projects": {
-    "C:\\Artuz\\Tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\ElevatorStateMachine.csproj": {
+    "C:\\Users\\Amitay\\Documents\\tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\ElevatorStateMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Artuz\\Tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\ElevatorStateMachine.csproj",
+        "projectUniqueName": "C:\\Users\\Amitay\\Documents\\tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\ElevatorStateMachine.csproj",
         "projectName": "ElevatorStateMachine",
-        "projectPath": "C:\\Artuz\\Tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\ElevatorStateMachine.csproj",
-        "packagesPath": "C:\\Users\\Multi\\.nuget\\packages\\",
-        "outputPath": "C:\\Artuz\\Tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\obj\\",
+        "projectPath": "C:\\Users\\Amitay\\Documents\\tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\ElevatorStateMachine.csproj",
+        "packagesPath": "C:\\Users\\Amitay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amitay\\Documents\\tiltan\\ElevatorStateMachine\\ElevatorStateMachine\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Multi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amitay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +30,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -40,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -61,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
