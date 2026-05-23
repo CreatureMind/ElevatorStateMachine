@@ -1,3 +1,5 @@
+using System.Reflection.PortableExecutable;
+
 namespace ElevatorStateMachine;
 
 public enum ElevatorStates
@@ -17,25 +19,14 @@ public class Elevator
     {
         machine = new(this);
 
-        machine.SetBool("wasCalled", false);
-        machine.AddTransition(ElevatorStates.IdleClosed, ElevatorStates.IdleOpened);
+        machine.SetBool("isDoorOpen", true);
+
+        machine.AddTransition(ElevatorStates.IdleClosed, ElevatorStates.OpeningDoors, new BoolCondition("isDoorOpen", true));
     }
 
-    [StateMachineCallback(ElevatorStates.IdleClosed, StateCallback.Enter)]
-    public void EnterYaFr()
+    [StateMachineCallback(ElevatorStates.OpeningDoors, StateCallback.Enter)]
+    public void OnOpeningDoorsStart()
     {
         Console.WriteLine("meow");
-    }
-
-    [StateMachineCallback(ElevatorStates.IdleClosed, StateCallback.Exit)]
-    public void EnterYaFrExit()
-    {
-        Console.WriteLine("exited closed");
-    }
-
-    [StateMachineCallback(ElevatorStates.IdleOpened, StateCallback.Enter)]
-    public void OpenYa()
-    {
-        Console.WriteLine("openya");
     }
 }

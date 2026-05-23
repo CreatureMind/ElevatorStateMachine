@@ -193,7 +193,7 @@ public class StateMachine<E> where E : struct, Enum
 
         CheckTransitions(iterations + 1);
     }
-
+    
     public void AddTransition(E from, E to, int priority, params StateTransitionConditionOpaque[] conditions)
     {
         var fromState = GetState(from);
