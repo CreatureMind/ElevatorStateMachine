@@ -3,7 +3,13 @@ namespace ElevatorStateMachine;
 public class State
 {
     public int Id { get; private set; }
-    private SortedSet<StateTransition> Transition { get; set; } = new(Comparer<StateTransition>.Create((a, b) => a.Priority.CompareTo(b.Priority)));
+    private SortedSet<StateTransition> Transition { get; set; } = new(Comparer<StateTransition>.Create((a, b) =>
+    {
+        int priorityComparison = a.Priority.CompareTo(b.Priority);
+        if (priorityComparison != 0) return priorityComparison;
+        // If priorities are equal, compare by destination state ID to avoid duplicates being ignored
+        return a.DestinationState.Id.CompareTo(b.DestinationState.Id);
+    }));
 
     public event Action OnEnter;
     public event Action OnExit;

@@ -1,0 +1,15 @@
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/bin/Debug/net8.0/ElevatorStateMachine
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/bin/Debug/net8.0/ElevatorStateMachine.deps.json
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/bin/Debug/net8.0/ElevatorStateMachine.runtimeconfig.json
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/bin/Debug/net8.0/ElevatorStateMachine.dll
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/bin/Debug/net8.0/ElevatorStateMachine.pdb
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/ElevatorStateMachine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/ElevatorStateMachine.AssemblyInfoInputs.cache
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/ElevatorStateMachine.AssemblyInfo.cs
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/ElevatorStateMachine.csproj.CoreCompileInputs.cache
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/ElevatorStateMachine.sourcelink.json
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/ElevatorStateMachine.dll
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/refint/ElevatorStateMachine.dll
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/ElevatorStateMachine.pdb
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/ElevatorStateMachine.genruntimeconfig.cache
+/Users/art/Documents/GitHub/ElevatorStateMachine/ElevatorStateMachine/obj/Debug/net8.0/ref/ElevatorStateMachine.dll
